@@ -4,18 +4,19 @@
  * and open the template in the editor.
  */
 package problema1;
+
 import java.util.Scanner;
 
 /**
  *
  * @author Usuario
  */
-public class problema1 {
+public class Problema1 {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main (String[] args){
         // TODO code application logic here
         //DECLARACION DE VARIABLES
       int numeroH;
@@ -41,7 +42,7 @@ public class problema1 {
       //MOSTRAR DATOS EN PANTALLA
       
       System.out.printf("Su sueldo a pagar es: %.2f\nCon un descuento de 10 por ciento"
-              + "por el seguro social de: %.2f"
+              + " por el seguro social de: %.2f"
               + "\nSu sueldo final es: %.2f",sueldo,descuentoS,sueldofinal);
       
       
@@ -51,3 +52,4 @@ public class problema1 {
     }
     
 }
+
